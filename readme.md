@@ -1,4 +1,4 @@
-# Clínica Médica Online
+# Turnos Clínica Médica
 
 Demo: https://nicoalazar.github.io/cursoJS-Flex/
 
