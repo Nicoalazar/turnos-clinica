@@ -43,7 +43,7 @@ function setupSearchForm(doctors) {
         const coverage = document.querySelector('input[name="coverage"]:checked').value;
         const user = "paciente"; 
 
-        const filteredDoctors = doctors.filter(doctor => doctor.especialidad === especialidad && (coverage === "Si" ? doctor.os : !doctor.os));
+        const filteredDoctors = doctors.filter(doctor => doctor.especialidad === especialidad && (coverage === "Si" ? doctor.os : true));
         const availableDoctors = filteredDoctors.filter(doctor => doctor.available);
         const notAvailableDoctors = filteredDoctors.filter(doctor => !doctor.available);
         const resultContainer = document.getElementById("resultContainer");
