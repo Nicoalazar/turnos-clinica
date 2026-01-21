@@ -1,6 +1,6 @@
 # Turnos Clínica Médica
 
-Demo: https://nicoalazar.github.io/cursoJS-Flex/
+Demo: https://nicoalazar.github.io/turnos-clinica/
 
 Aplicación web para reservar citas médicas en una clínica online.
 
